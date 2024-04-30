@@ -23,11 +23,11 @@ sleep "$1";
 figlet "sleep time over"
 
 alarm=(
-	"/home/ubuntu/Alarm/alarm1.mp3"
-	"/home/ubuntu/Alarm/alarm2.mp3"
-	"/home/ubuntu/Alarm/alarm3.mp3"
-	"/home/ubuntu/Alarm/alarm4.mp3"
-	"/home/ubuntu/Alarm/alarm5.mp3"
+	"alarm1.mp3"
+	"alarm2.mp3"
+	"alarm3.mp3"
+	"alarm4.mp3"
+	"alarm5.mp3"
 )
 
 for ((i=0; i<${#alarm[@]}; i++)); do
