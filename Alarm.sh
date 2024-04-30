@@ -14,7 +14,7 @@
 
 if [[ -z $1 ]]; then
 	echo -e "\n\t Usage: ./Alarm.sh 8h for 8 hours of sleep"
-	echo -e "\t\t./Alarm.sh 20m for 20 minutes of sleep"
+	echo -e "\t\t./Alarm.sh 10s for 10 seconds of sleep"
 	echo -e "\t\t See man sleep\n"
 	exit 0
 fi
